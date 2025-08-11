@@ -1,8 +1,8 @@
 import './globals.css';
-import Navbar from '../components/Navbar'; // Zorg dat het pad klopt
-import Footer from '../components/Footer'; // Zorg dat het pad klopt
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 
-export default function RootLayout({ children }) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="nl">
       <body>
