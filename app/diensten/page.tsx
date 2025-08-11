@@ -69,8 +69,8 @@ const ServicesPage = () => {
                   className="bg-white rounded-lg shadow-sm p-8 hover:shadow-md transition-shadow duration-300"
                 >
                   <div className="flex items-center mb-6">
-                    <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mr-4">
-                      <IconComponent className="w-6 h-6 text-blue-700" />
+                    <div className="w-12 h-12 bg-sky-100 rounded-lg flex items-center justify-center mr-4">
+                      <IconComponent className="w-6 h-6 text-sky-700" />
                     </div>
                     <h3 className="font-heading text-2xl font-semibold text-gray-900">
                       {service.title}
@@ -82,7 +82,7 @@ const ServicesPage = () => {
                   <ul className="space-y-2">
                     {service.features.map((feature, featureIndex) => (
                       <li key={featureIndex} className="flex items-center text-gray-700">
-                        <div className="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
+                        <div className="w-2 h-2 bg-sky-600 rounded-full mr-3"></div>
                         {feature}
                       </li>
                     ))}
@@ -95,7 +95,7 @@ const ServicesPage = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="bg-blue-700 py-16">
+      <section className="bg-sky-700 py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -105,14 +105,14 @@ const ServicesPage = () => {
             <h2 className="font-heading text-3xl md:text-4xl font-bold text-white mb-6">
               Klaar om samen te werken?
             </h2>
-            <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
+            <p className="text-xl text-sky-100 mb-8 max-w-2xl mx-auto">
               Laten we in gesprek gaan over hoe ik uw organisatie kan ondersteunen bij uw uitdagingen.
             </p>
             <motion.a
               href="/contact"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="inline-block bg-white text-blue-700 font-semibold px-8 py-3 rounded-lg hover:bg-gray-100 transition-colors duration-200"
+              className="inline-block bg-white text-sky-700 font-semibold px-8 py-3 rounded-lg hover:bg-gray-100 transition-colors duration-200"
             >
               Neem contact op
             </motion.a>

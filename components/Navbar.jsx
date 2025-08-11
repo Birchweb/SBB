@@ -22,10 +22,21 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <Link href="/" className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-blue-700 rounded-lg flex items-center justify-center">
+            {/* <div className="w-8 h-8 bg-sky-700 rounded-lg flex items-center justify-center">
               <span className="text-white font-bold text-sm">SB</span>
             </div>
-            <span className="font-heading font-semibold text-xl text-gray-900">Support binnen bereik</span>
+            <span className="font-heading font-semibold text-xl text-gray-900">Support binnen bereik</span> */}
+            <img 
+              src="/images/Logo_SBB.png" 
+              alt="SB Logo" 
+              className="h-8 w-8 rounded-lg"
+            />
+            {/* Tekstlogo Afbeelding (breed) */}
+            <img 
+              src="/images/Logo_SBB_Text.png" 
+              alt="Support binnen bereik logo" 
+              className="h-8 hidden sm:block" // Verborgen op mobiel, zichtbaar op grotere schermen
+            />
           </Link>
 
           {/* Desktop Navigation */}
@@ -36,8 +47,8 @@ const Navbar = () => {
                 href={item.path}
                 className={`px-3 py-2 text-sm font-medium transition-colors duration-200 ${
                   location === item.path
-                    ? 'text-blue-700 border-b-2 border-blue-700'
-                    : 'text-gray-600 hover:text-blue-700'
+                    ? 'text-sky-700 border-b-2 border-sky-700'
+                    : 'text-gray-600 hover:text-sky-700'
                 }`}
               >
                 {item.name}
@@ -49,7 +60,7 @@ const Navbar = () => {
           <div className="md:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="text-gray-600 hover:text-blue-700 focus:outline-none"
+              className="text-gray-600 hover:text-sky-700 focus:outline-none"
             >
               {isOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
@@ -71,8 +82,8 @@ const Navbar = () => {
                 onClick={() => setIsOpen(false)}
                 className={`block px-3 py-2 text-base font-medium transition-colors duration-200 ${
                   location === item.path
-                    ? 'text-blue-700 bg-blue-50'
-                    : 'text-gray-600 hover:text-blue-700 hover:bg-gray-50'
+                    ? 'text-sky-700 bg-sky-50'
+                    : 'text-gray-600 hover:text-sky-700 hover:bg-gray-50'
                 }`}
               >
                 {item.name}

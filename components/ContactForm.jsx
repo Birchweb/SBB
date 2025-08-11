@@ -114,7 +114,7 @@ const ContactForm = () => {
           name="name"
           value={formData.name}
           onChange={handleChange}
-          className={`w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors duration-200 ${
+          className={`w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-sky-500 focus:border-sky-500 transition-colors duration-200 ${
             errors.name ? 'border-red-300 bg-red-50' : 'border-gray-300'
           }`}
           placeholder="Uw volledige naam"
@@ -138,7 +138,7 @@ const ContactForm = () => {
           name="email"
           value={formData.email}
           onChange={handleChange}
-          className={`w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors duration-200 ${
+          className={`w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-sky-500 focus:border-sky-500 transition-colors duration-200 ${
             errors.email ? 'border-red-300 bg-red-50' : 'border-gray-300'
           }`}
           placeholder="uw.email@voorbeeld.nl"
@@ -162,7 +162,7 @@ const ContactForm = () => {
           name="phone"
           value={formData.phone}
           onChange={handleChange}
-          className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors duration-200"
+          className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-sky-500 focus:border-sky-500 transition-colors duration-200"
           placeholder="06 12 34 56 78"
         />
       </div>
@@ -178,7 +178,7 @@ const ContactForm = () => {
           name="subject"
           value={formData.subject}
           onChange={handleChange}
-          className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors duration-200"
+          className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-sky-500 focus:border-sky-500 transition-colors duration-200"
           placeholder="Waar kan ik u mee helpen?"
         />
       </div>
@@ -194,7 +194,7 @@ const ContactForm = () => {
           value={formData.message}
           onChange={handleChange}
           rows={6}
-          className={`w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors duration-200 resize-vertical ${
+          className={`w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-sky-500 focus:border-sky-500 transition-colors duration-200 resize-vertical ${
             errors.message ? 'border-red-300 bg-red-50' : 'border-gray-300'
           }`}
           placeholder="Beschrijf kort uw situatie en hoe ik u kan helpen..."
@@ -216,7 +216,7 @@ const ContactForm = () => {
         className={`w-full flex items-center justify-center px-6 py-3 border border-transparent rounded-lg text-white font-medium transition-colors duration-200 ${
           isSubmitting
             ? 'bg-gray-400 cursor-not-allowed'
-            : 'bg-blue-600 hover:bg-blue-700 focus:ring-2 focus:ring-blue-500 focus:ring-offset-2'
+            : 'bg-sky-600 hover:bg-sky-700 focus:ring-2 focus:ring-sky-500 focus:ring-offset-2'
         }`}
       >
         {isSubmitting ? (

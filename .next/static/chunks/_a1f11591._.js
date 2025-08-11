@@ -145,9 +145,9 @@ const ServicesPage = ()=>{
                                         className: "flex items-center mb-6",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mr-4",
+                                                className: "w-12 h-12 bg-sky-100 rounded-lg flex items-center justify-center mr-4",
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(IconComponent, {
-                                                    className: "w-6 h-6 text-blue-700"
+                                                    className: "w-6 h-6 text-sky-700"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/diensten/page.tsx",
                                                     lineNumber: 73,
@@ -186,7 +186,7 @@ const ServicesPage = ()=>{
                                                 className: "flex items-center text-gray-700",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        className: "w-2 h-2 bg-blue-600 rounded-full mr-3"
+                                                        className: "w-2 h-2 bg-sky-600 rounded-full mr-3"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/diensten/page.tsx",
                                                         lineNumber: 85,
@@ -227,7 +227,7 @@ const ServicesPage = ()=>{
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                className: "bg-blue-700 py-16",
+                className: "bg-sky-700 py-16",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -252,7 +252,7 @@ const ServicesPage = ()=>{
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "text-xl text-blue-100 mb-8 max-w-2xl mx-auto",
+                                className: "text-xl text-sky-100 mb-8 max-w-2xl mx-auto",
                                 children: "Laten we in gesprek gaan over hoe ik uw organisatie kan ondersteunen bij uw uitdagingen."
                             }, void 0, false, {
                                 fileName: "[project]/app/diensten/page.tsx",
@@ -267,7 +267,7 @@ const ServicesPage = ()=>{
                                 whileTap: {
                                     scale: 0.95
                                 },
-                                className: "inline-block bg-white text-blue-700 font-semibold px-8 py-3 rounded-lg hover:bg-gray-100 transition-colors duration-200",
+                                className: "inline-block bg-white text-sky-700 font-semibold px-8 py-3 rounded-lg hover:bg-gray-100 transition-colors duration-200",
                                 children: "Neem contact op"
                             }, void 0, false, {
                                 fileName: "[project]/app/diensten/page.tsx",

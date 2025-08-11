@@ -57,11 +57,10 @@ const ServicesSection = () => {
           className="text-center mb-16"
         >
           <h2 className="font-heading text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-            Onze Diensten
+            Mijn Diensten
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Praktische ondersteuning op maat voor uw organisatie. 
-            Van strategisch advies t hands-on begeleiding.
+            Of je nu tijdelijke versterking zoekt of een frisse blik op je organisatie, ik help je praktisch en doelgericht verder.
           </p>
         </motion.div>
 
@@ -78,8 +77,8 @@ const ServicesSection = () => {
                 viewport={{ once: true }}
                 className="bg-gray-50 rounded-xl p-6 hover:shadow-lg transition-shadow duration-300 group"
               >
-                <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4 group-hover:bg-blue-200 transition-colors duration-300">
-                  <IconComponent className="w-6 h-6 text-blue-700" />
+                <div className="w-12 h-12 bg-sky-100 rounded-lg flex items-center justify-center mb-4 group-hover:bg-sky-200 transition-colors duration-300">
+                  <IconComponent className="w-6 h-6 text-sky-700" />
                 </div>
                 
                 <h3 className="font-heading text-xl font-semibold text-gray-900 mb-3">
@@ -93,7 +92,7 @@ const ServicesSection = () => {
                 <ul className="space-y-2">
                   {service.features.map((feature, featureIndex) => (
                     <li key={featureIndex} className="flex items-center text-sm text-gray-700">
-                      <div className="w-1.5 h-1.5 bg-blue-600 rounded-full mr-3"></div>
+                      <div className="w-1.5 h-1.5 bg-sky-600 rounded-full mr-3"></div>
                       {feature}
                     </li>
                   ))}
@@ -109,7 +108,7 @@ const ServicesSection = () => {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.3 }}
           viewport={{ once: true }}
-          className="text-center bg-blue-50 rounded-2xl p-8 md:p-12"
+          className="text-center bg-sky-50 rounded-2xl p-8 md:p-12"
         >
           <h3 className="font-heading text-2xl md:text-3xl font-bold text-gray-900 mb-4">
             Niet zeker welke dienst het beste past?
@@ -120,7 +119,7 @@ const ServicesSection = () => {
           </p>
           <Link
             href="/contact"
-            className="inline-flex items-center px-8 py-3 bg-blue-700 text-white font-semibold rounded-lg hover:bg-blue-800 transition-colors duration-200"
+            className="inline-flex items-center px-8 py-3 bg-sky-700 text-white font-semibold rounded-lg hover:bg-sky-800 transition-colors duration-200"
           >
             Plan een gesprek
           </Link>

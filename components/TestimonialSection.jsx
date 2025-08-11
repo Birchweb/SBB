@@ -106,7 +106,7 @@ const TestimonialSection = () => {
               onMouseLeave={() => setIsAutoPlaying(true)}
             >
               {/* Quote Icon */}
-              <Quote className="w-12 h-12 text-blue-200 mb-6" />
+              <Quote className="w-12 h-12 text-sky-200 mb-6" />
               
               {/* Rating */}
               <div className="flex items-center mb-6">
@@ -126,7 +126,7 @@ const TestimonialSection = () => {
                   <div className="font-heading text-lg font-semibold text-gray-900">
                     {currentTestimonial.name}
                   </div>
-                  <div className="text-blue-700 font-medium">
+                  <div className="text-sky-700 font-medium">
                     {currentTestimonial.role}
                   </div>
                   <div className="text-gray-600">
@@ -134,7 +134,7 @@ const TestimonialSection = () => {
                   </div>
                 </div>
                 <div className="mt-4 md:mt-0">
-                  <span className="inline-block bg-blue-100 text-blue-800 text-sm px-3 py-1 rounded-full">
+                  <span className="inline-block bg-sky-100 text-sky-800 text-sm px-3 py-1 rounded-full">
                     {currentTestimonial.industry}
                   </span>
                 </div>
@@ -167,7 +167,7 @@ const TestimonialSection = () => {
               key={index}
               onClick={() => goToTestimonial(index)}
               className={`w-3 h-3 rounded-full transition-colors duration-200 ${
-                index === currentIndex ? 'bg-blue-600' : 'bg-gray-300 hover:bg-gray-400'
+                index === currentIndex ? 'bg-sky-600' : 'bg-gray-300 hover:bg-gray-400'
               }`}
               aria-label={`Go to testimonial ${index + 1}`}
             />

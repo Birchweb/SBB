@@ -7,13 +7,13 @@ import Link from 'next/link';
 
 const HeroSection = () => {
   const benefits = [
-    'Praktische oplossingen zonder onnodige complexiteit',
-    'Persoonlijke betrokkenheid bij uw uitdagingen',
-    'Bewezen resultaten in het MKB'
+    'Analyseer snel en kom direct in actie',
+    'Betrokken en oplossingsgericht',
+    'Flexibel en resultaatgedreven'
   ];
 
   return (
-    <section className="relative bg-gradient-to-br from-blue-50 to-white py-20 lg:py-32">
+    <section className="relative bg-gradient-to-br from-sky-50 to-white py-20 lg:py-32">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Content */}
@@ -25,12 +25,13 @@ const HeroSection = () => {
           >
             <h1 className="font-heading text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
               Support binnen
-              <span className="text-blue-700 block">bereik</span>
+              <span className="text-sky-700 block">bereik</span>
             </h1>
             
             <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-              Praktische ondersteuning voor MKB-ondernemers bij management- en personeelsvraagstukken. 
-              Zonder onnodige ruis, met persoonlijke betrokkenheid.
+              Praktische ondersteuning voor jouw organisatie. 
+              Snel schakelen, helder communiceren en samen tot resultaat komen. 
+              Ik bied laagdrempelige support voor management- en personeelsvraagstukken.
             </p>
 
             {/* Benefits */}
@@ -58,9 +59,9 @@ const HeroSection = () => {
             >
               <Link
                 href="/contact"
-                className="inline-flex items-center justify-center px-8 py-3 bg-blue-700 text-white font-semibold rounded-lg hover:bg-blue-800 transition-colors duration-200 group"
+                className="inline-flex items-center justify-center px-8 py-3 bg-sky-700 text-white font-semibold rounded-lg hover:bg-sky-800 transition-colors duration-200 group"
               >
-                Vrijblijvend gesprek
+                Plan een kennismaking
                 <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform duration-200" />
               </Link>
               
@@ -80,19 +81,24 @@ const HeroSection = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="relative"
           >
-            <div className="relative bg-gradient-to-br from-blue-100 to-blue-200 rounded-2xl p-8 lg:p-12">
-              <div className="bg-white rounded-xl p-6 shadow-lg">
+            <div className="relative bg-gradient-to-br from-sky-100 to-sky-200 rounded-2xl p-8 lg:p-12">
+              {/* <div className="bg-white rounded-xl p-6 shadow-lg">
                 <div className="space-y-4">
-                  <div className="h-3 bg-blue-200 rounded w-3/4"></div>
+                  <div className="h-3 bg-sky-200 rounded w-3/4"></div>
                   <div className="h-3 bg-gray-200 rounded w-full"></div>
                   <div className="h-3 bg-gray-200 rounded w-5/6"></div>
                   <div className="flex space-x-2 pt-4">
                     <div className="w-8 h-8 bg-green-200 rounded-full"></div>
-                    <div className="w-8 h-8 bg-blue-200 rounded-full"></div>
+                    <div className="w-8 h-8 bg-sky-200 rounded-full"></div>
                     <div className="w-8 h-8 bg-purple-200 rounded-full"></div>
                   </div>
                 </div>
-              </div>
+              </div> */}
+              <img 
+              src="https://images.pexels.com/photos/7876785/pexels-photo-7876785.jpeg" 
+              alt="Beschrijving van de afbeelding"
+              className="w-full h-auto rounded-xl shadow-lg"
+            />
               
               {/* Floating elements */}
               <div className="absolute -top-4 -right-4 w-16 h-16 bg-yellow-200 rounded-full opacity-60"></div>

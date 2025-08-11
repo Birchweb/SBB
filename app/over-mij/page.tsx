@@ -49,8 +49,7 @@ const AboutPage = () => {
               Over mij
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Met meer dan 15 jaar ervaring in management en organisatieontwikkeling, 
-              help ik MKB-bedrijven bij hun belangrijkste uitdagingen.
+              Betrokken, daadkrachtig en oplossingsgericht – dat is wie ik ben en hoe ik werk.
             </p>
           </motion.div>
         </div>
@@ -66,7 +65,12 @@ const AboutPage = () => {
               transition={{ duration: 0.6 }}
             >
               <div className="bg-gray-200 rounded-lg h-96 flex items-center justify-center">
-                <span className="text-gray-500 text-lg">Professional Photo</span>
+                {/* <span className="text-gray-500 text-lg">Professional Photo</span> */}
+                <img 
+              src="https://images.pexels.com/photos/3783546/pexels-photo-3783546.jpeg" 
+              alt="Beschrijving van de afbeelding"
+              className="w-full h-auto rounded-xl shadow-lg"
+            />
               </div>
             </motion.div>
             <motion.div
@@ -126,8 +130,8 @@ const AboutPage = () => {
                   transition={{ duration: 0.6, delay: index * 0.1 }}
                   className="text-center p-6"
                 >
-                  <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <IconComponent className="w-8 h-8 text-blue-700" />
+                  <div className="w-16 h-16 bg-sky-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <IconComponent className="w-8 h-8 text-sky-700" />
                   </div>
                   <h3 className="font-heading text-xl font-semibold text-gray-900 mb-4">
                     {value.title}
@@ -175,7 +179,7 @@ const AboutPage = () => {
       </section>
 
       {/* CTA */}
-      <section className="bg-blue-700 py-16">
+      <section className="bg-sky-700 py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -185,14 +189,14 @@ const AboutPage = () => {
             <h2 className="font-heading text-3xl md:text-4xl font-bold text-white mb-6">
               Laten we kennismaken
             </h2>
-            <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
+            <p className="text-xl text-sky-100 mb-8 max-w-2xl mx-auto">
               Benieuwd hoe ik uw organisatie kan helpen? Ik ga graag met u in gesprek.
             </p>
             <motion.a
               href="/contact"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="inline-block bg-white text-blue-700 font-semibold px-8 py-3 rounded-lg hover:bg-gray-100 transition-colors duration-200"
+              className="inline-block bg-white text-sky-700 font-semibold px-8 py-3 rounded-lg hover:bg-gray-100 transition-colors duration-200"
             >
               Plan een gesprek
             </motion.a>

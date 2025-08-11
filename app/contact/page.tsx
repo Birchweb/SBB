@@ -69,13 +69,13 @@ const ContactPage = () => {
                   transition={{ duration: 0.6, delay: index * 0.1 }}
                   className="bg-white rounded-lg p-6 text-center shadow-sm hover:shadow-md transition-shadow duration-300"
                 >
-                  <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <IconComponent className="w-6 h-6 text-blue-700" />
+                  <div className="w-12 h-12 bg-sky-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <IconComponent className="w-6 h-6 text-sky-700" />
                   </div>
                   <h3 className="font-heading text-lg font-semibold text-gray-900 mb-2">
                     {info.title}
                   </h3>
-                  <p className="text-blue-700 font-medium mb-2">
+                  <p className="text-sky-700 font-medium mb-2">
                     {info.value}
                   </p>
                   <p className="text-gray-600 text-sm">
@@ -110,28 +110,28 @@ const ContactPage = () => {
               </h3>
               <div className="space-y-4">
                 <div className="flex items-start space-x-3">
-                  <div className="w-2 h-2 bg-blue-600 rounded-full mt-2"></div>
+                  <div className="w-2 h-2 bg-sky-600 rounded-full mt-2"></div>
                   <div>
                     <h4 className="font-semibold text-gray-900 mb-1">Vrijblijvend gesprek</h4>
                     <p className="text-gray-600">Een eerste kennismaking zonder verplichtingen</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-3">
-                  <div className="w-2 h-2 bg-blue-600 rounded-full mt-2"></div>
+                  <div className="w-2 h-2 bg-sky-600 rounded-full mt-2"></div>
                   <div>
                     <h4 className="font-semibold text-gray-900 mb-1">Snelle respons</h4>
                     <p className="text-gray-600">Binnen 24 uur reactie op uw bericht</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-3">
-                  <div className="w-2 h-2 bg-blue-600 rounded-full mt-2"></div>
+                  <div className="w-2 h-2 bg-sky-600 rounded-full mt-2"></div>
                   <div>
                     <h4 className="font-semibold text-gray-900 mb-1">Persoonlijke aanpak</h4>
                     <p className="text-gray-600">Elke situatie is uniek en verdient maatwerk</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-3">
-                  <div className="w-2 h-2 bg-blue-600 rounded-full mt-2"></div>
+                  <div className="w-2 h-2 bg-sky-600 rounded-full mt-2"></div>
                   <div>
                     <h4 className="font-semibold text-gray-900 mb-1">Praktische oplossingen</h4>
                     <p className="text-gray-600">Focus op concrete resultaten voor uw organisatie</p>
@@ -139,8 +139,8 @@ const ContactPage = () => {
                 </div>
               </div>
 
-              <div className="mt-8 p-4 bg-blue-50 rounded-lg">
-                <p className="text-blue-800 text-sm">
+              <div className="mt-8 p-4 bg-sky-50 rounded-lg">
+                <p className="text-sky-800 text-sm">
                   <strong>Tip:</strong> Beschrijf kort uw situatie in het contactformulier, 
                   dan kan ik me beter voorbereiden op ons gesprek.
                 </p>

@@ -146,7 +146,7 @@ const ContactForm = ()=>{
                         name: "name",
                         value: formData.name,
                         onChange: handleChange,
-                        className: `w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors duration-200 ${errors.name ? 'border-red-300 bg-red-50' : 'border-gray-300'}`,
+                        className: `w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-sky-500 focus:border-sky-500 transition-colors duration-200 ${errors.name ? 'border-red-300 bg-red-50' : 'border-gray-300'}`,
                         placeholder: "Uw volledige naam"
                     }, void 0, false, {
                         fileName: "[project]/components/ContactForm.jsx",
@@ -193,7 +193,7 @@ const ContactForm = ()=>{
                         name: "email",
                         value: formData.email,
                         onChange: handleChange,
-                        className: `w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors duration-200 ${errors.email ? 'border-red-300 bg-red-50' : 'border-gray-300'}`,
+                        className: `w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-sky-500 focus:border-sky-500 transition-colors duration-200 ${errors.email ? 'border-red-300 bg-red-50' : 'border-gray-300'}`,
                         placeholder: "uw.email@voorbeeld.nl"
                     }, void 0, false, {
                         fileName: "[project]/components/ContactForm.jsx",
@@ -240,7 +240,7 @@ const ContactForm = ()=>{
                         name: "phone",
                         value: formData.phone,
                         onChange: handleChange,
-                        className: "w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors duration-200",
+                        className: "w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-sky-500 focus:border-sky-500 transition-colors duration-200",
                         placeholder: "06 12 34 56 78"
                     }, void 0, false, {
                         fileName: "[project]/components/ContactForm.jsx",
@@ -270,7 +270,7 @@ const ContactForm = ()=>{
                         name: "subject",
                         value: formData.subject,
                         onChange: handleChange,
-                        className: "w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors duration-200",
+                        className: "w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-sky-500 focus:border-sky-500 transition-colors duration-200",
                         placeholder: "Waar kan ik u mee helpen?"
                     }, void 0, false, {
                         fileName: "[project]/components/ContactForm.jsx",
@@ -300,7 +300,7 @@ const ContactForm = ()=>{
                         value: formData.message,
                         onChange: handleChange,
                         rows: 6,
-                        className: `w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors duration-200 resize-vertical ${errors.message ? 'border-red-300 bg-red-50' : 'border-gray-300'}`,
+                        className: `w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-sky-500 focus:border-sky-500 transition-colors duration-200 resize-vertical ${errors.message ? 'border-red-300 bg-red-50' : 'border-gray-300'}`,
                         placeholder: "Beschrijf kort uw situatie en hoe ik u kan helpen..."
                     }, void 0, false, {
                         fileName: "[project]/components/ContactForm.jsx",
@@ -339,7 +339,7 @@ const ContactForm = ()=>{
                 whileTap: {
                     scale: 0.98
                 },
-                className: `w-full flex items-center justify-center px-6 py-3 border border-transparent rounded-lg text-white font-medium transition-colors duration-200 ${isSubmitting ? 'bg-gray-400 cursor-not-allowed' : 'bg-blue-600 hover:bg-blue-700 focus:ring-2 focus:ring-blue-500 focus:ring-offset-2'}`,
+                className: `w-full flex items-center justify-center px-6 py-3 border border-transparent rounded-lg text-white font-medium transition-colors duration-200 ${isSubmitting ? 'bg-gray-400 cursor-not-allowed' : 'bg-sky-600 hover:bg-sky-700 focus:ring-2 focus:ring-sky-500 focus:ring-offset-2'}`,
                 children: isSubmitting ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Fragment"], {
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -508,9 +508,9 @@ const ContactPage = ()=>{
                                     className: "bg-white rounded-lg p-6 text-center shadow-sm hover:shadow-md transition-shadow duration-300",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4",
+                                            className: "w-12 h-12 bg-sky-100 rounded-full flex items-center justify-center mx-auto mb-4",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(IconComponent, {
-                                                className: "w-6 h-6 text-blue-700"
+                                                className: "w-6 h-6 text-sky-700"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/contact/page.tsx",
                                                 lineNumber: 73,
@@ -530,7 +530,7 @@ const ContactPage = ()=>{
                                             columnNumber: 19
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "text-blue-700 font-medium mb-2",
+                                            className: "text-sky-700 font-medium mb-2",
                                             children: info.value
                                         }, void 0, false, {
                                             fileName: "[project]/app/contact/page.tsx",
@@ -623,7 +623,7 @@ const ContactPage = ()=>{
                                                     className: "flex items-start space-x-3",
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "w-2 h-2 bg-blue-600 rounded-full mt-2"
+                                                            className: "w-2 h-2 bg-sky-600 rounded-full mt-2"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/contact/page.tsx",
                                                             lineNumber: 113,
@@ -663,7 +663,7 @@ const ContactPage = ()=>{
                                                     className: "flex items-start space-x-3",
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "w-2 h-2 bg-blue-600 rounded-full mt-2"
+                                                            className: "w-2 h-2 bg-sky-600 rounded-full mt-2"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/contact/page.tsx",
                                                             lineNumber: 120,
@@ -703,7 +703,7 @@ const ContactPage = ()=>{
                                                     className: "flex items-start space-x-3",
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "w-2 h-2 bg-blue-600 rounded-full mt-2"
+                                                            className: "w-2 h-2 bg-sky-600 rounded-full mt-2"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/contact/page.tsx",
                                                             lineNumber: 127,
@@ -743,7 +743,7 @@ const ContactPage = ()=>{
                                                     className: "flex items-start space-x-3",
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "w-2 h-2 bg-blue-600 rounded-full mt-2"
+                                                            className: "w-2 h-2 bg-sky-600 rounded-full mt-2"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/contact/page.tsx",
                                                             lineNumber: 134,
@@ -786,9 +786,9 @@ const ContactPage = ()=>{
                                             columnNumber: 15
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "mt-8 p-4 bg-blue-50 rounded-lg",
+                                            className: "mt-8 p-4 bg-sky-50 rounded-lg",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                className: "text-blue-800 text-sm",
+                                                className: "text-sky-800 text-sm",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
                                                         children: "Tip:"

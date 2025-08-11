@@ -10,10 +10,21 @@ const Footer = () => {
           {/* Company Info */}
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
-              <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
+              {/* <div className="w-8 h-8 bg-sky-600 rounded-lg flex items-center justify-center">
                 <span className="text-white font-bold text-sm">SB</span>
               </div>
-              <span className="font-heading font-semibold text-xl">Support binnen bereik</span>
+              <span className="font-heading font-semibold text-xl">Support binnen bereik</span> */}
+              <img 
+              src="/images/Logo_SBB.png" 
+              alt="SB Logo" 
+              className="h-8 w-8 rounded-lg"
+            />
+            {/* Tekstlogo Afbeelding (breed) */}
+            <img 
+              src="/images/Logo_SBB_Text.png" 
+              alt="Support binnen bereik logo" 
+              className="h-8 hidden sm:block" // Verborgen op mobiel, zichtbaar op grotere schermen
+            />
             </div>
             <p className="text-gray-300 mb-6 max-w-md">
               Praktische en resultaatgerichte ondersteuning voor midden- en kleinbedrijven. 
@@ -21,15 +32,15 @@ const Footer = () => {
             </p>
             <div className="space-y-2">
               <div className="flex items-center space-x-3">
-                <Mail size={16} className="text-blue-400" />
+                <Mail size={16} className="text-sky-400" />
                 <span className="text-gray-300">info@supportbinnenbereik.nl</span>
               </div>
               <div className="flex items-center space-x-3">
-                <Phone size={16} className="text-blue-400" />
+                <Phone size={16} className="text-sky-400" />
                 <span className="text-gray-300">+31 6 12 34 56 78</span>
               </div>
               <div className="flex items-center space-x-3">
-                <MapPin size={16} className="text-blue-400" />
+                <MapPin size={16} className="text-sky-400" />
                 <span className="text-gray-300">Nederland</span>
               </div>
             </div>
@@ -40,22 +51,22 @@ const Footer = () => {
             <h3 className="font-heading font-semibold text-lg mb-4">Snelle links</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="/" className="text-gray-300 hover:text-blue-400 transition-colors duration-200">
+                <Link href="/" className="text-gray-300 hover:text-sky-400 transition-colors duration-200">
                   Home
                 </Link>
               </li>
               <li>
-                <Link href="/diensten" className="text-gray-300 hover:text-blue-400 transition-colors duration-200">
+                <Link href="/diensten" className="text-gray-300 hover:text-sky-400 transition-colors duration-200">
                   Diensten
                 </Link>
               </li>
               <li>
-                <Link href="/over-mij" className="text-gray-300 hover:text-blue-400 transition-colors duration-200">
+                <Link href="/over-mij" className="text-gray-300 hover:text-sky-400 transition-colors duration-200">
                   Over mij
                 </Link>
               </li>
               <li>
-                <Link href="/contact" className="text-gray-300 hover:text-blue-400 transition-colors duration-200">
+                <Link href="/contact" className="text-gray-300 hover:text-sky-400 transition-colors duration-200">
                   Contact
                 </Link>
               </li>

@@ -120,7 +120,7 @@ const FAQSection = () => {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.4 }}
           viewport={{ once: true }}
-          className="text-center mt-12 p-8 bg-blue-50 rounded-2xl"
+          className="text-center mt-12 p-8 bg-sky-50 rounded-2xl"
         >
           <h3 className="font-heading text-xl font-semibold text-gray-900 mb-4">
             Staat je vraag er niet bij?
@@ -130,7 +130,7 @@ const FAQSection = () => {
           </p>
           <a
             href="/contact"
-            className="inline-flex items-center px-6 py-3 bg-blue-700 text-white font-semibold rounded-lg hover:bg-blue-800 transition-colors duration-200"
+            className="inline-flex items-center px-6 py-3 bg-sky-700 text-white font-semibold rounded-lg hover:bg-sky-800 transition-colors duration-200"
           >
             Stel je vraag
           </a>

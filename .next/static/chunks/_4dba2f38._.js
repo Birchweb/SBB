@@ -22,12 +22,12 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 const HeroSection = ()=>{
     const benefits = [
-        'Praktische oplossingen zonder onnodige complexiteit',
-        'Persoonlijke betrokkenheid bij uw uitdagingen',
-        'Bewezen resultaten in het MKB'
+        'Analyseer snel en kom direct in actie',
+        'Betrokken en oplossingsgericht',
+        'Flexibel en resultaatgedreven'
     ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-        className: "relative bg-gradient-to-br from-blue-50 to-white py-20 lg:py-32",
+        className: "relative bg-gradient-to-br from-sky-50 to-white py-20 lg:py-32",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -52,7 +52,7 @@ const HeroSection = ()=>{
                                 children: [
                                     "Support binnen",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "text-blue-700 block",
+                                        className: "text-sky-700 block",
                                         children: "bereik"
                                     }, void 0, false, {
                                         fileName: "[project]/components/HeroSection.jsx",
@@ -67,7 +67,7 @@ const HeroSection = ()=>{
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "text-xl text-gray-600 mb-8 leading-relaxed",
-                                children: "Praktische ondersteuning voor MKB-ondernemers bij management- en personeelsvraagstukken. Zonder onnodige ruis, met persoonlijke betrokkenheid."
+                                children: "Praktische ondersteuning voor jouw organisatie. Snel schakelen, helder communiceren en samen tot resultaat komen. Ik bied laagdrempelige support voor management- en personeelsvraagstukken."
                             }, void 0, false, {
                                 fileName: "[project]/components/HeroSection.jsx",
                                 lineNumber: 31,
@@ -94,7 +94,7 @@ const HeroSection = ()=>{
                                                 className: "w-5 h-5 text-green-600 mt-0.5 flex-shrink-0"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/HeroSection.jsx",
-                                                lineNumber: 46,
+                                                lineNumber: 47,
                                                 columnNumber: 19
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -102,18 +102,18 @@ const HeroSection = ()=>{
                                                 children: benefit
                                             }, void 0, false, {
                                                 fileName: "[project]/components/HeroSection.jsx",
-                                                lineNumber: 47,
+                                                lineNumber: 48,
                                                 columnNumber: 19
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, index, true, {
                                         fileName: "[project]/components/HeroSection.jsx",
-                                        lineNumber: 39,
+                                        lineNumber: 40,
                                         columnNumber: 17
                                     }, ("TURBOPACK compile-time value", void 0)))
                             }, void 0, false, {
                                 fileName: "[project]/components/HeroSection.jsx",
-                                lineNumber: 37,
+                                lineNumber: 38,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -133,20 +133,20 @@ const HeroSection = ()=>{
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                         href: "/contact",
-                                        className: "inline-flex items-center justify-center px-8 py-3 bg-blue-700 text-white font-semibold rounded-lg hover:bg-blue-800 transition-colors duration-200 group",
+                                        className: "inline-flex items-center justify-center px-8 py-3 bg-sky-700 text-white font-semibold rounded-lg hover:bg-sky-800 transition-colors duration-200 group",
                                         children: [
-                                            "Vrijblijvend gesprek",
+                                            "Plan een kennismaking",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$right$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowRight$3e$__["ArrowRight"], {
                                                 className: "ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform duration-200"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/HeroSection.jsx",
-                                                lineNumber: 64,
+                                                lineNumber: 65,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/HeroSection.jsx",
-                                        lineNumber: 59,
+                                        lineNumber: 60,
                                         columnNumber: 15
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -155,13 +155,13 @@ const HeroSection = ()=>{
                                         children: "Bekijk diensten"
                                     }, void 0, false, {
                                         fileName: "[project]/components/HeroSection.jsx",
-                                        lineNumber: 67,
+                                        lineNumber: 68,
                                         columnNumber: 15
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/HeroSection.jsx",
-                                lineNumber: 53,
+                                lineNumber: 54,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
@@ -185,98 +185,40 @@ const HeroSection = ()=>{
                         },
                         className: "relative",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "relative bg-gradient-to-br from-blue-100 to-blue-200 rounded-2xl p-8 lg:p-12",
+                            className: "relative bg-gradient-to-br from-sky-100 to-sky-200 rounded-2xl p-8 lg:p-12",
                             children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "bg-white rounded-xl p-6 shadow-lg",
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "space-y-4",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "h-3 bg-blue-200 rounded w-3/4"
-                                            }, void 0, false, {
-                                                fileName: "[project]/components/HeroSection.jsx",
-                                                lineNumber: 86,
-                                                columnNumber: 19
-                                            }, ("TURBOPACK compile-time value", void 0)),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "h-3 bg-gray-200 rounded w-full"
-                                            }, void 0, false, {
-                                                fileName: "[project]/components/HeroSection.jsx",
-                                                lineNumber: 87,
-                                                columnNumber: 19
-                                            }, ("TURBOPACK compile-time value", void 0)),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "h-3 bg-gray-200 rounded w-5/6"
-                                            }, void 0, false, {
-                                                fileName: "[project]/components/HeroSection.jsx",
-                                                lineNumber: 88,
-                                                columnNumber: 19
-                                            }, ("TURBOPACK compile-time value", void 0)),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "flex space-x-2 pt-4",
-                                                children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        className: "w-8 h-8 bg-green-200 rounded-full"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/components/HeroSection.jsx",
-                                                        lineNumber: 90,
-                                                        columnNumber: 21
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        className: "w-8 h-8 bg-blue-200 rounded-full"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/components/HeroSection.jsx",
-                                                        lineNumber: 91,
-                                                        columnNumber: 21
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        className: "w-8 h-8 bg-purple-200 rounded-full"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/components/HeroSection.jsx",
-                                                        lineNumber: 92,
-                                                        columnNumber: 21
-                                                    }, ("TURBOPACK compile-time value", void 0))
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "[project]/components/HeroSection.jsx",
-                                                lineNumber: 89,
-                                                columnNumber: 19
-                                            }, ("TURBOPACK compile-time value", void 0))
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/components/HeroSection.jsx",
-                                        lineNumber: 85,
-                                        columnNumber: 17
-                                    }, ("TURBOPACK compile-time value", void 0))
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                    src: "https://images.pexels.com/photos/7876785/pexels-photo-7876785.jpeg",
+                                    alt: "Beschrijving van de afbeelding",
+                                    className: "w-full h-auto rounded-xl shadow-lg"
                                 }, void 0, false, {
                                     fileName: "[project]/components/HeroSection.jsx",
-                                    lineNumber: 84,
+                                    lineNumber: 97,
                                     columnNumber: 15
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "absolute -top-4 -right-4 w-16 h-16 bg-yellow-200 rounded-full opacity-60"
                                 }, void 0, false, {
                                     fileName: "[project]/components/HeroSection.jsx",
-                                    lineNumber: 98,
+                                    lineNumber: 104,
                                     columnNumber: 15
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "absolute -bottom-6 -left-6 w-12 h-12 bg-green-200 rounded-full opacity-40"
                                 }, void 0, false, {
                                     fileName: "[project]/components/HeroSection.jsx",
-                                    lineNumber: 99,
+                                    lineNumber: 105,
                                     columnNumber: 15
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/HeroSection.jsx",
-                            lineNumber: 83,
+                            lineNumber: 84,
                             columnNumber: 13
                         }, ("TURBOPACK compile-time value", void 0))
                     }, void 0, false, {
                         fileName: "[project]/components/HeroSection.jsx",
-                        lineNumber: 77,
+                        lineNumber: 78,
                         columnNumber: 11
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
@@ -415,7 +357,7 @@ const ServicesSection = ()=>{
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                             className: "font-heading text-3xl md:text-4xl font-bold text-gray-900 mb-6",
-                            children: "Onze Diensten"
+                            children: "Mijn Diensten"
                         }, void 0, false, {
                             fileName: "[project]/components/ServicesSection.jsx",
                             lineNumber: 59,
@@ -423,7 +365,7 @@ const ServicesSection = ()=>{
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             className: "text-xl text-gray-600 max-w-3xl mx-auto",
-                            children: "Praktische ondersteuning op maat voor uw organisatie. Van strategisch advies t hands-on begeleiding."
+                            children: "Of je nu tijdelijke versterking zoekt of een frisse blik op je organisatie, ik help je praktisch en doelgericht verder."
                         }, void 0, false, {
                             fileName: "[project]/components/ServicesSection.jsx",
                             lineNumber: 62,
@@ -458,17 +400,17 @@ const ServicesSection = ()=>{
                             className: "bg-gray-50 rounded-xl p-6 hover:shadow-lg transition-shadow duration-300 group",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4 group-hover:bg-blue-200 transition-colors duration-300",
+                                    className: "w-12 h-12 bg-sky-100 rounded-lg flex items-center justify-center mb-4 group-hover:bg-sky-200 transition-colors duration-300",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(IconComponent, {
-                                        className: "w-6 h-6 text-blue-700"
+                                        className: "w-6 h-6 text-sky-700"
                                     }, void 0, false, {
                                         fileName: "[project]/components/ServicesSection.jsx",
-                                        lineNumber: 82,
+                                        lineNumber: 81,
                                         columnNumber: 19
                                     }, ("TURBOPACK compile-time value", void 0))
                                 }, void 0, false, {
                                     fileName: "[project]/components/ServicesSection.jsx",
-                                    lineNumber: 81,
+                                    lineNumber: 80,
                                     columnNumber: 17
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -476,7 +418,7 @@ const ServicesSection = ()=>{
                                     children: service.title
                                 }, void 0, false, {
                                     fileName: "[project]/components/ServicesSection.jsx",
-                                    lineNumber: 85,
+                                    lineNumber: 84,
                                     columnNumber: 17
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -484,7 +426,7 @@ const ServicesSection = ()=>{
                                     children: service.description
                                 }, void 0, false, {
                                     fileName: "[project]/components/ServicesSection.jsx",
-                                    lineNumber: 89,
+                                    lineNumber: 88,
                                     columnNumber: 17
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -493,34 +435,34 @@ const ServicesSection = ()=>{
                                             className: "flex items-center text-sm text-gray-700",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "w-1.5 h-1.5 bg-blue-600 rounded-full mr-3"
+                                                    className: "w-1.5 h-1.5 bg-sky-600 rounded-full mr-3"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/ServicesSection.jsx",
-                                                    lineNumber: 96,
+                                                    lineNumber: 95,
                                                     columnNumber: 23
                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                 feature
                                             ]
                                         }, featureIndex, true, {
                                             fileName: "[project]/components/ServicesSection.jsx",
-                                            lineNumber: 95,
+                                            lineNumber: 94,
                                             columnNumber: 21
                                         }, ("TURBOPACK compile-time value", void 0)))
                                 }, void 0, false, {
                                     fileName: "[project]/components/ServicesSection.jsx",
-                                    lineNumber: 93,
+                                    lineNumber: 92,
                                     columnNumber: 17
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, index, true, {
                             fileName: "[project]/components/ServicesSection.jsx",
-                            lineNumber: 73,
+                            lineNumber: 72,
                             columnNumber: 15
                         }, ("TURBOPACK compile-time value", void 0));
                     })
                 }, void 0, false, {
                     fileName: "[project]/components/ServicesSection.jsx",
-                    lineNumber: 69,
+                    lineNumber: 68,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -539,14 +481,14 @@ const ServicesSection = ()=>{
                     viewport: {
                         once: true
                     },
-                    className: "text-center bg-blue-50 rounded-2xl p-8 md:p-12",
+                    className: "text-center bg-sky-50 rounded-2xl p-8 md:p-12",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                             className: "font-heading text-2xl md:text-3xl font-bold text-gray-900 mb-4",
                             children: "Niet zeker welke dienst het beste past?"
                         }, void 0, false, {
                             fileName: "[project]/components/ServicesSection.jsx",
-                            lineNumber: 114,
+                            lineNumber: 113,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -554,22 +496,22 @@ const ServicesSection = ()=>{
                             children: "Laten we samen kijken naar uw specifieke situatie. In een vrijblijvend gesprek bespreken we uw uitdagingen en mogelijke oplossingen."
                         }, void 0, false, {
                             fileName: "[project]/components/ServicesSection.jsx",
-                            lineNumber: 117,
+                            lineNumber: 116,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                             href: "/contact",
-                            className: "inline-flex items-center px-8 py-3 bg-blue-700 text-white font-semibold rounded-lg hover:bg-blue-800 transition-colors duration-200",
+                            className: "inline-flex items-center px-8 py-3 bg-sky-700 text-white font-semibold rounded-lg hover:bg-sky-800 transition-colors duration-200",
                             children: "Plan een gesprek"
                         }, void 0, false, {
                             fileName: "[project]/components/ServicesSection.jsx",
-                            lineNumber: 121,
+                            lineNumber: 120,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/ServicesSection.jsx",
-                    lineNumber: 107,
+                    lineNumber: 106,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0))
             ]
@@ -753,7 +695,7 @@ const TestimonialSection = ()=>{
                                 onMouseLeave: ()=>setIsAutoPlaying(true),
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$quote$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Quote$3e$__["Quote"], {
-                                        className: "w-12 h-12 text-blue-200 mb-6"
+                                        className: "w-12 h-12 text-sky-200 mb-6"
                                     }, void 0, false, {
                                         fileName: "[project]/components/TestimonialSection.jsx",
                                         lineNumber: 109,
@@ -801,7 +743,7 @@ const TestimonialSection = ()=>{
                                                         columnNumber: 19
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        className: "text-blue-700 font-medium",
+                                                        className: "text-sky-700 font-medium",
                                                         children: currentTestimonial.role
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/TestimonialSection.jsx",
@@ -825,7 +767,7 @@ const TestimonialSection = ()=>{
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: "mt-4 md:mt-0",
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    className: "inline-block bg-blue-100 text-blue-800 text-sm px-3 py-1 rounded-full",
+                                                    className: "inline-block bg-sky-100 text-sky-800 text-sm px-3 py-1 rounded-full",
                                                     children: currentTestimonial.industry
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/TestimonialSection.jsx",
@@ -896,7 +838,7 @@ const TestimonialSection = ()=>{
                     className: "flex justify-center mt-8 space-x-2",
                     children: testimonials.map((_, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                             onClick: ()=>goToTestimonial(index),
-                            className: "w-3 h-3 rounded-full transition-colors duration-200 ".concat(index === currentIndex ? 'bg-blue-600' : 'bg-gray-300 hover:bg-gray-400'),
+                            className: "w-3 h-3 rounded-full transition-colors duration-200 ".concat(index === currentIndex ? 'bg-sky-600' : 'bg-gray-300 hover:bg-gray-400'),
                             "aria-label": "Go to testimonial ".concat(index + 1)
                         }, index, false, {
                             fileName: "[project]/components/TestimonialSection.jsx",
@@ -1162,7 +1104,7 @@ const FAQSection = ()=>{
                     viewport: {
                         once: true
                     },
-                    className: "text-center mt-12 p-8 bg-blue-50 rounded-2xl",
+                    className: "text-center mt-12 p-8 bg-sky-50 rounded-2xl",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                             className: "font-heading text-xl font-semibold text-gray-900 mb-4",
@@ -1182,7 +1124,7 @@ const FAQSection = ()=>{
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                             href: "/contact",
-                            className: "inline-flex items-center px-6 py-3 bg-blue-700 text-white font-semibold rounded-lg hover:bg-blue-800 transition-colors duration-200",
+                            className: "inline-flex items-center px-6 py-3 bg-sky-700 text-white font-semibold rounded-lg hover:bg-sky-800 transition-colors duration-200",
                             children: "Stel je vraag"
                         }, void 0, false, {
                             fileName: "[project]/components/FAQSection.jsx",
