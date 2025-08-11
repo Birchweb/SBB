@@ -1476,6 +1476,10 @@
     color: var(--color-sky-400);
   }
 
+  .text-sky-500 {
+    color: var(--color-sky-500);
+  }
+
   .text-sky-700 {
     color: var(--color-sky-700);
   }

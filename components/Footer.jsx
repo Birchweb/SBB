@@ -94,7 +94,7 @@ const Footer = () => {
         href="https://www.birchweb.nl" 
         target="_blank" 
         rel="noopener noreferrer" 
-        className="text-blue-500 hover:underline"
+        className="text-sky-500 hover:underline"
       >
         Birchweb
       </a>
