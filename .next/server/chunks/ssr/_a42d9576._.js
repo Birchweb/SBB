@@ -333,11 +333,35 @@ const Footer = ()=>{
                     className: "border-t border-gray-800 mt-8 pt-8 text-center",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                         className: "text-gray-400",
-                        children: "© 2024 Support binnen bereik. Alle rechten voorbehouden."
-                    }, void 0, false, {
+                        children: [
+                            "© 2024 Support binnen bereik. Alle rechten voorbehouden.",
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                className: "block mt-2 md:inline md:ml-4",
+                                children: [
+                                    "Ontwikkeld door",
+                                    ' ',
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                        href: "https://www.birchweb.nl",
+                                        target: "_blank",
+                                        rel: "noopener noreferrer",
+                                        className: "text-blue-500 hover:underline",
+                                        children: "Birchweb"
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/Footer.jsx",
+                                        lineNumber: 93,
+                                        columnNumber: 7
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/components/Footer.jsx",
+                                lineNumber: 91,
+                                columnNumber: 5
+                            }, ("TURBOPACK compile-time value", void 0))
+                        ]
+                    }, void 0, true, {
                         fileName: "[project]/components/Footer.jsx",
                         lineNumber: 89,
-                        columnNumber: 11
+                        columnNumber: 3
                     }, ("TURBOPACK compile-time value", void 0))
                 }, void 0, false, {
                     fileName: "[project]/components/Footer.jsx",

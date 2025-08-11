@@ -86,10 +86,21 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">
-          <p className="text-gray-400">
-            © 2024 Support binnen bereik. Alle rechten voorbehouden.
-          </p>
-        </div>
+  <p className="text-gray-400">
+    © 2024 Support binnen bereik. Alle rechten voorbehouden.
+    <span className="block mt-2 md:inline md:ml-4">
+      Ontwikkeld door{' '}
+      <a 
+        href="https://www.birchweb.nl" 
+        target="_blank" 
+        rel="noopener noreferrer" 
+        className="text-blue-500 hover:underline"
+      >
+        Birchweb
+      </a>
+    </span>
+  </p>
+</div>
       </div>
     </footer>
   );
