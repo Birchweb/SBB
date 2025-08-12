@@ -1,8 +1,9 @@
-"use client";
+'use client';
 
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Award, Users, Target, Heart } from 'lucide-react';
+import Image from 'next/image';
 
 // Deze mapping verbindt de string die in Strapi is opgeslagen met het juiste React-component
 const iconMap = {
@@ -12,10 +13,19 @@ const iconMap = {
   Award: Award,
 };
 
+// Definieer het type voor de data die uit de Strapi-API komt
+type CompanyValue = {
+  id: number;
+  icon: 'Target' | 'Heart' | 'Users' | 'Award'; // Specificeer de mogelijke icoon-waarden
+  title: string;
+  description: string;
+};
+
 const AboutPage = () => {
-  const [values, setValues] = useState([]);
+  // Gebruik de CompanyValue type voor de state
+  const [values, setValues] = useState<CompanyValue[]>([]);
   const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
+  const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
     const fetchValues = async () => {
@@ -30,17 +40,17 @@ const AboutPage = () => {
         const data = await response.json();
         
         // CORRIGEREN: We lezen de properties nu direct uit het item,
-        // in plaats van via een "attributes" object
-        const formattedValues = data.data.map(item => ({
+        // in plaats van via een "attributes" object en we definiëren het type
+        const formattedValues = data.data.map((item: { id: number; icon: 'Target' | 'Heart' | 'Users' | 'Award'; title: string; description: string }) => ({
           id: item.id,
-          icon: iconMap[item.icon], // Gecorrigeerd: lees direct item.icon
-          title: item.title,         // Gecorrigeerd: lees direct item.title
-          description: item.description, // Gecorrigeerd: lees direct item.description
+          icon: iconMap[item.icon],
+          title: item.title,
+          description: item.description,
         }));
         
         setValues(formattedValues);
       } catch (e) {
-        setError(e.message);
+        setError((e as Error).message);
         console.error("Fout bij het ophalen van de waarden:", e);
       } finally {
         setLoading(false);
@@ -121,11 +131,13 @@ const AboutPage = () => {
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.6 }}
             >
-              <div className="bg-gray-200 rounded-lg h-96 flex items-center justify-center">
-                <img 
+              <div className="bg-gray-200 rounded-lg h-96 flex items-center justify-center relative">
+                <Image
                   src="https://images.pexels.com/photos/3783546/pexels-photo-3783546.jpeg" 
                   alt="Beschrijving van de afbeelding"
-                  className="w-full h-auto rounded-xl shadow-lg"
+                  layout="fill"
+                  objectFit="cover"
+                  className="rounded-xl shadow-lg"
                 />
               </div>
             </motion.div>
