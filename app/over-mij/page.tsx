@@ -140,7 +140,7 @@ const AboutPage = () => {
             >
               <div className="bg-gray-200 rounded-lg h-96 flex items-center justify-center relative">
                 <Image
-                  src="https://images.pexels.com/photos/3783546/pexels-photo-3783546.jpeg" 
+                  src="/images/about.jpeg" 
                   alt="Beschrijving van de afbeelding"
                   layout="fill"
                   objectFit="cover"
