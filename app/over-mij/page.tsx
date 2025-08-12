@@ -14,16 +14,24 @@ const iconMap = {
 };
 
 // Definieer het type voor de data die uit de Strapi-API komt
-type CompanyValue = {
+type StrapiCompanyValue = {
   id: number;
   icon: 'Target' | 'Heart' | 'Users' | 'Award'; // Specificeer de mogelijke icoon-waarden
   title: string;
   description: string;
 };
 
+// Definieer het type voor de geformatteerde waarden in onze state
+type FormattedCompanyValue = {
+  id: number;
+  icon: React.ElementType; // Specificeer dat dit een React-component is
+  title: string;
+  description: string;
+};
+
 const AboutPage = () => {
-  // Gebruik de CompanyValue type voor de state
-  const [values, setValues] = useState<CompanyValue[]>([]);
+  // Gebruik de FormattedCompanyValue type voor de state
+  const [values, setValues] = useState<FormattedCompanyValue[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
@@ -39,9 +47,8 @@ const AboutPage = () => {
         
         const data = await response.json();
         
-        // CORRIGEREN: We lezen de properties nu direct uit het item,
-        // in plaats van via een "attributes" object en we definiëren het type
-        const formattedValues = data.data.map((item: { id: number; icon: 'Target' | 'Heart' | 'Users' | 'Award'; title: string; description: string }) => ({
+        // Nu vertellen we TypeScript dat `item` de `StrapiCompanyValue` structuur heeft
+        const formattedValues: FormattedCompanyValue[] = data.data.map((item: StrapiCompanyValue) => ({
           id: item.id,
           icon: iconMap[item.icon],
           title: item.title,
@@ -189,7 +196,8 @@ const AboutPage = () => {
           </motion.div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {values.map((value) => {
-              const IconComponent = value.icon;
+              // Vertel TypeScript dat dit een component is
+              const IconComponent: React.ElementType = value.icon;
               return (
                 <motion.div
                   key={value.id}
@@ -199,6 +207,7 @@ const AboutPage = () => {
                   className="text-center p-6"
                 >
                   <div className="w-16 h-16 bg-sky-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                    {/* Nu wordt IconComponent correct als een component gerenderd */}
                     {IconComponent && <IconComponent className="w-8 h-8 text-sky-700" />}
                   </div>
                   <h3 className="font-heading text-xl font-semibold text-gray-900 mb-4">

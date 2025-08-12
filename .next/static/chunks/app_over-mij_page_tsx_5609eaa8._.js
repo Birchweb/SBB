@@ -32,7 +32,7 @@ const iconMap = {
 };
 const AboutPage = ()=>{
     _s();
-    // Gebruik de CompanyValue type voor de state
+    // Gebruik de FormattedCompanyValue type voor de state
     const [values, setValues] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])([]);
     const [loading, setLoading] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(true);
     const [error, setError] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(null);
@@ -47,8 +47,7 @@ const AboutPage = ()=>{
                             throw new Error("Fout bij het ophalen van de waarden: ".concat(response.statusText));
                         }
                         const data = await response.json();
-                        // CORRIGEREN: We lezen de properties nu direct uit het item,
-                        // in plaats van via een "attributes" object en we definiëren het type
+                        // Nu vertellen we TypeScript dat `item` de `StrapiCompanyValue` structuur heeft
                         const formattedValues = data.data.map({
                             "AboutPage.useEffect.fetchValues.formattedValues": (item)=>({
                                     id: item.id,
@@ -99,7 +98,7 @@ const AboutPage = ()=>{
                             strokeWidth: "4"
                         }, void 0, false, {
                             fileName: "[project]/app/over-mij/page.tsx",
-                            lineNumber: 79,
+                            lineNumber: 86,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
@@ -108,13 +107,13 @@ const AboutPage = ()=>{
                             d: "M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
                         }, void 0, false, {
                             fileName: "[project]/app/over-mij/page.tsx",
-                            lineNumber: 80,
+                            lineNumber: 87,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/over-mij/page.tsx",
-                    lineNumber: 78,
+                    lineNumber: 85,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -122,13 +121,13 @@ const AboutPage = ()=>{
                     children: "Waarden laden..."
                 }, void 0, false, {
                     fileName: "[project]/app/over-mij/page.tsx",
-                    lineNumber: 82,
+                    lineNumber: 89,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0))
             ]
         }, void 0, true, {
             fileName: "[project]/app/over-mij/page.tsx",
-            lineNumber: 77,
+            lineNumber: 84,
             columnNumber: 7
         }, ("TURBOPACK compile-time value", void 0));
     }
@@ -143,12 +142,12 @@ const AboutPage = ()=>{
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/over-mij/page.tsx",
-                lineNumber: 90,
+                lineNumber: 97,
                 columnNumber: 9
             }, ("TURBOPACK compile-time value", void 0))
         }, void 0, false, {
             fileName: "[project]/app/over-mij/page.tsx",
-            lineNumber: 89,
+            lineNumber: 96,
             columnNumber: 7
         }, ("TURBOPACK compile-time value", void 0));
     }
@@ -161,12 +160,12 @@ const AboutPage = ()=>{
                 children: "Geen waarden gevonden. Controleer de Strapi-content."
             }, void 0, false, {
                 fileName: "[project]/app/over-mij/page.tsx",
-                lineNumber: 99,
+                lineNumber: 106,
                 columnNumber: 9
             }, ("TURBOPACK compile-time value", void 0))
         }, void 0, false, {
             fileName: "[project]/app/over-mij/page.tsx",
-            lineNumber: 98,
+            lineNumber: 105,
             columnNumber: 7
         }, ("TURBOPACK compile-time value", void 0));
     }
@@ -196,7 +195,7 @@ const AboutPage = ()=>{
                                 children: "Over mij"
                             }, void 0, false, {
                                 fileName: "[project]/app/over-mij/page.tsx",
-                                lineNumber: 115,
+                                lineNumber: 122,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -204,23 +203,23 @@ const AboutPage = ()=>{
                                 children: "Betrokken, daadkrachtig en oplossingsgericht – dat is wie ik ben en hoe ik werk."
                             }, void 0, false, {
                                 fileName: "[project]/app/over-mij/page.tsx",
-                                lineNumber: 118,
+                                lineNumber: 125,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/over-mij/page.tsx",
-                        lineNumber: 109,
+                        lineNumber: 116,
                         columnNumber: 11
                     }, ("TURBOPACK compile-time value", void 0))
                 }, void 0, false, {
                     fileName: "[project]/app/over-mij/page.tsx",
-                    lineNumber: 108,
+                    lineNumber: 115,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0))
             }, void 0, false, {
                 fileName: "[project]/app/over-mij/page.tsx",
-                lineNumber: 107,
+                lineNumber: 114,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -252,17 +251,17 @@ const AboutPage = ()=>{
                                         className: "rounded-xl shadow-lg"
                                     }, void 0, false, {
                                         fileName: "[project]/app/over-mij/page.tsx",
-                                        lineNumber: 135,
+                                        lineNumber: 142,
                                         columnNumber: 17
                                     }, ("TURBOPACK compile-time value", void 0))
                                 }, void 0, false, {
                                     fileName: "[project]/app/over-mij/page.tsx",
-                                    lineNumber: 134,
+                                    lineNumber: 141,
                                     columnNumber: 15
                                 }, ("TURBOPACK compile-time value", void 0))
                             }, void 0, false, {
                                 fileName: "[project]/app/over-mij/page.tsx",
-                                lineNumber: 129,
+                                lineNumber: 136,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -284,7 +283,7 @@ const AboutPage = ()=>{
                                         children: "Mijn verhaal"
                                     }, void 0, false, {
                                         fileName: "[project]/app/over-mij/page.tsx",
-                                        lineNumber: 149,
+                                        lineNumber: 156,
                                         columnNumber: 15
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -294,49 +293,49 @@ const AboutPage = ()=>{
                                                 children: "Na jarenlange ervaring in verschillende managementfuncties bij zowel grote corporaties als MKB-bedrijven, besloot ik mijn expertise in te zetten als zelfstandig consultant."
                                             }, void 0, false, {
                                                 fileName: "[project]/app/over-mij/page.tsx",
-                                                lineNumber: 153,
+                                                lineNumber: 160,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                 children: "Ik geloof sterk in de kracht van praktische oplossingen en persoonlijke betrokkenheid. Mijn aanpak is altijd gericht op duurzame resultaten en het versterken van teams en organisaties van binnenuit."
                                             }, void 0, false, {
                                                 fileName: "[project]/app/over-mij/page.tsx",
-                                                lineNumber: 158,
+                                                lineNumber: 165,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                 children: "Door mijn brede ervaring in verschillende sectoren kan ik snel schakelen en effectieve oplossingen bieden voor complexe vraagstukken. Ik werk graag samen met ondernemers en managers die echt iets willen bereiken."
                                             }, void 0, false, {
                                                 fileName: "[project]/app/over-mij/page.tsx",
-                                                lineNumber: 163,
+                                                lineNumber: 170,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/over-mij/page.tsx",
-                                        lineNumber: 152,
+                                        lineNumber: 159,
                                         columnNumber: 15
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/over-mij/page.tsx",
-                                lineNumber: 144,
+                                lineNumber: 151,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/over-mij/page.tsx",
-                        lineNumber: 128,
+                        lineNumber: 135,
                         columnNumber: 11
                     }, ("TURBOPACK compile-time value", void 0))
                 }, void 0, false, {
                     fileName: "[project]/app/over-mij/page.tsx",
-                    lineNumber: 127,
+                    lineNumber: 134,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0))
             }, void 0, false, {
                 fileName: "[project]/app/over-mij/page.tsx",
-                lineNumber: 126,
+                lineNumber: 133,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -363,7 +362,7 @@ const AboutPage = ()=>{
                                     children: "Mijn kernwaarden"
                                 }, void 0, false, {
                                     fileName: "[project]/app/over-mij/page.tsx",
-                                    lineNumber: 183,
+                                    lineNumber: 190,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -371,18 +370,19 @@ const AboutPage = ()=>{
                                     children: "Deze waarden vormen de basis van mijn werkwijze en bepalen hoe ik met klanten samenwerk."
                                 }, void 0, false, {
                                     fileName: "[project]/app/over-mij/page.tsx",
-                                    lineNumber: 186,
+                                    lineNumber: 193,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/over-mij/page.tsx",
-                            lineNumber: 177,
+                            lineNumber: 184,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "grid grid-cols-1 md:grid-cols-3 gap-8",
                             children: values.map((value)=>{
+                                // Vertel TypeScript dat dit een component is
                                 const IconComponent = value.icon;
                                 return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
                                     initial: {
@@ -404,12 +404,12 @@ const AboutPage = ()=>{
                                                 className: "w-8 h-8 text-sky-700"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/over-mij/page.tsx",
-                                                lineNumber: 202,
+                                                lineNumber: 211,
                                                 columnNumber: 39
                                             }, ("TURBOPACK compile-time value", void 0))
                                         }, void 0, false, {
                                             fileName: "[project]/app/over-mij/page.tsx",
-                                            lineNumber: 201,
+                                            lineNumber: 209,
                                             columnNumber: 19
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -417,7 +417,7 @@ const AboutPage = ()=>{
                                             children: value.title
                                         }, void 0, false, {
                                             fileName: "[project]/app/over-mij/page.tsx",
-                                            lineNumber: 204,
+                                            lineNumber: 213,
                                             columnNumber: 19
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -425,30 +425,30 @@ const AboutPage = ()=>{
                                             children: value.description
                                         }, void 0, false, {
                                             fileName: "[project]/app/over-mij/page.tsx",
-                                            lineNumber: 207,
+                                            lineNumber: 216,
                                             columnNumber: 19
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, value.id, true, {
                                     fileName: "[project]/app/over-mij/page.tsx",
-                                    lineNumber: 194,
+                                    lineNumber: 202,
                                     columnNumber: 17
                                 }, ("TURBOPACK compile-time value", void 0));
                             })
                         }, void 0, false, {
                             fileName: "[project]/app/over-mij/page.tsx",
-                            lineNumber: 190,
+                            lineNumber: 197,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/over-mij/page.tsx",
-                    lineNumber: 176,
+                    lineNumber: 183,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0))
             }, void 0, false, {
                 fileName: "[project]/app/over-mij/page.tsx",
-                lineNumber: 175,
+                lineNumber: 182,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -475,7 +475,7 @@ const AboutPage = ()=>{
                                     children: "Mijn expertise"
                                 }, void 0, false, {
                                     fileName: "[project]/app/over-mij/page.tsx",
-                                    lineNumber: 226,
+                                    lineNumber: 235,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -483,13 +483,13 @@ const AboutPage = ()=>{
                                     children: "Door de jaren heen heb ik expertise opgebouwd in verschillende disciplines."
                                 }, void 0, false, {
                                     fileName: "[project]/app/over-mij/page.tsx",
-                                    lineNumber: 229,
+                                    lineNumber: 238,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/over-mij/page.tsx",
-                            lineNumber: 220,
+                            lineNumber: 229,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -513,28 +513,28 @@ const AboutPage = ()=>{
                                         children: skill
                                     }, void 0, false, {
                                         fileName: "[project]/app/over-mij/page.tsx",
-                                        lineNumber: 242,
+                                        lineNumber: 251,
                                         columnNumber: 17
                                     }, ("TURBOPACK compile-time value", void 0))
                                 }, index, false, {
                                     fileName: "[project]/app/over-mij/page.tsx",
-                                    lineNumber: 235,
+                                    lineNumber: 244,
                                     columnNumber: 15
                                 }, ("TURBOPACK compile-time value", void 0)))
                         }, void 0, false, {
                             fileName: "[project]/app/over-mij/page.tsx",
-                            lineNumber: 233,
+                            lineNumber: 242,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/over-mij/page.tsx",
-                    lineNumber: 219,
+                    lineNumber: 228,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0))
             }, void 0, false, {
                 fileName: "[project]/app/over-mij/page.tsx",
-                lineNumber: 218,
+                lineNumber: 227,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -559,7 +559,7 @@ const AboutPage = ()=>{
                                 children: "Laten we kennismaken"
                             }, void 0, false, {
                                 fileName: "[project]/app/over-mij/page.tsx",
-                                lineNumber: 257,
+                                lineNumber: 266,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -567,7 +567,7 @@ const AboutPage = ()=>{
                                 children: "Benieuwd hoe ik uw organisatie kan helpen? Ik ga graag met u in gesprek."
                             }, void 0, false, {
                                 fileName: "[project]/app/over-mij/page.tsx",
-                                lineNumber: 260,
+                                lineNumber: 269,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].a, {
@@ -582,29 +582,29 @@ const AboutPage = ()=>{
                                 children: "Plan een gesprek"
                             }, void 0, false, {
                                 fileName: "[project]/app/over-mij/page.tsx",
-                                lineNumber: 263,
+                                lineNumber: 272,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/over-mij/page.tsx",
-                        lineNumber: 252,
+                        lineNumber: 261,
                         columnNumber: 11
                     }, ("TURBOPACK compile-time value", void 0))
                 }, void 0, false, {
                     fileName: "[project]/app/over-mij/page.tsx",
-                    lineNumber: 251,
+                    lineNumber: 260,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0))
             }, void 0, false, {
                 fileName: "[project]/app/over-mij/page.tsx",
-                lineNumber: 250,
+                lineNumber: 259,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0))
         ]
     }, void 0, true, {
         fileName: "[project]/app/over-mij/page.tsx",
-        lineNumber: 105,
+        lineNumber: 112,
         columnNumber: 5
     }, ("TURBOPACK compile-time value", void 0));
 };
