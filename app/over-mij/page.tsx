@@ -1,28 +1,56 @@
 "use client";
 
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Award, Users, Target, Heart } from 'lucide-react';
 
-const AboutPage = () => {
-  const values = [
-    {
-      icon: Target,
-      title: 'Praktisch en resultaatgericht',
-      description: 'Ik focus op concrete oplossingen die direct impact hebben op uw organisatie.'
-    },
-    {
-      icon: Heart,
-      title: 'Betrokken en persoonlijk',
-      description: 'Elke samenwerking is uniek. Ik investeer in een persoonlijke relatie met mijn klanten.'
-    },
-    {
-      icon: Users,
-      title: 'Zonder onnodige ruis',
-      description: 'Heldere communicatie en transparante werkwijze, zonder ingewikkelde processen.'
-    }
-  ];
+// Deze mapping verbindt de string die in Strapi is opgeslagen met het juiste React-component
+const iconMap = {
+  Target: Target,
+  Heart: Heart,
+  Users: Users,
+  Award: Award,
+};
 
+const AboutPage = () => {
+  const [values, setValues] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
+
+  useEffect(() => {
+    const fetchValues = async () => {
+      try {
+        const apiUrl = 'https://supreme-success-51183b1d0a.strapiapp.com/api/company-values';
+        const response = await fetch(apiUrl);
+        
+        if (!response.ok) {
+          throw new Error(`Fout bij het ophalen van de waarden: ${response.statusText}`);
+        }
+        
+        const data = await response.json();
+        
+        // CORRIGEREN: We lezen de properties nu direct uit het item,
+        // in plaats van via een "attributes" object
+        const formattedValues = data.data.map(item => ({
+          id: item.id,
+          icon: iconMap[item.icon], // Gecorrigeerd: lees direct item.icon
+          title: item.title,         // Gecorrigeerd: lees direct item.title
+          description: item.description, // Gecorrigeerd: lees direct item.description
+        }));
+        
+        setValues(formattedValues);
+      } catch (e) {
+        setError(e.message);
+        console.error("Fout bij het ophalen van de waarden:", e);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchValues();
+  }, []);
+
+  // De expertise data is nog steeds hardcoded
   const expertise = [
     'Organisatieontwikkeling',
     'Verandermanagement',
@@ -33,6 +61,35 @@ const AboutPage = () => {
     'Interim management',
     'Coaching & mentoring'
   ];
+
+  if (loading) {
+    return (
+      <div className="min-h-screen bg-gray-50 flex flex-col items-center justify-center">
+        <svg className="animate-spin h-8 w-8 text-gray-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+          <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
+          <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+        </svg>
+        <p className="mt-4 text-xl text-gray-600">Waarden laden...</p>
+      </div>
+    );
+  }
+
+  if (error) {
+    return (
+      <div className="min-h-screen bg-gray-50 flex items-center justify-center">
+        <p className="text-xl text-red-500">Fout: {error}</p>
+      </div>
+    );
+  }
+  
+  // Als er geen waarden zijn, tonen we een melding
+  if (values.length === 0) {
+    return (
+      <div className="min-h-screen bg-gray-50 flex items-center justify-center">
+        <p className="text-xl text-gray-600">Geen waarden gevonden. Controleer de Strapi-content.</p>
+      </div>
+    );
+  }
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -65,12 +122,11 @@ const AboutPage = () => {
               transition={{ duration: 0.6 }}
             >
               <div className="bg-gray-200 rounded-lg h-96 flex items-center justify-center">
-                {/* <span className="text-gray-500 text-lg">Professional Photo</span> */}
                 <img 
-              src="https://images.pexels.com/photos/3783546/pexels-photo-3783546.jpeg" 
-              alt="Beschrijving van de afbeelding"
-              className="w-full h-auto rounded-xl shadow-lg"
-            />
+                  src="https://images.pexels.com/photos/3783546/pexels-photo-3783546.jpeg" 
+                  alt="Beschrijving van de afbeelding"
+                  className="w-full h-auto rounded-xl shadow-lg"
+                />
               </div>
             </motion.div>
             <motion.div
@@ -120,18 +176,18 @@ const AboutPage = () => {
             </p>
           </motion.div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {values.map((value, index) => {
+            {values.map((value) => {
               const IconComponent = value.icon;
               return (
                 <motion.div
-                  key={index}
+                  key={value.id}
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.6, delay: index * 0.1 }}
+                  transition={{ duration: 0.6 }}
                   className="text-center p-6"
                 >
                   <div className="w-16 h-16 bg-sky-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <IconComponent className="w-8 h-8 text-sky-700" />
+                    {IconComponent && <IconComponent className="w-8 h-8 text-sky-700" />}
                   </div>
                   <h3 className="font-heading text-xl font-semibold text-gray-900 mb-4">
                     {value.title}
